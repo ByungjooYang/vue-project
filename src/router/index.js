@@ -7,6 +7,10 @@ import DataBindingCheckbox2 from "@/views/DataBindingCheckbox2";
 import DataBindingRadio from "@/views/DataBindingRadio";
 import DataBindingButton from "@/views/DataBindingButton";
 import DataBindingClass from "@/views/DataBindingClass";
+import DataBindingList from "@/views/DataBindingList";
+import EventClick from "@/views/EventClick";
+import EventChange from "@/views/EventChange";
+import WatchTest from "@/views/WatchTest";
 
 const routes = [
   {
@@ -56,6 +60,26 @@ const routes = [
     path: '/dataBindingClass',
     name: 'dataBindingClass',
     component: DataBindingClass
+  },
+  {
+    path: '/dataBindingList',
+    name: 'dataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/eventClick',
+    name: 'eventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventChange',
+    name: 'eventChange',
+    component: EventChange
+  },
+  {
+    path: '/watch',
+    name: 'watch',
+    component: WatchTest
   }
 ]
 
