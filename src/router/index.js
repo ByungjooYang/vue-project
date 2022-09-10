@@ -11,6 +11,10 @@ import DataBindingList from "@/views/DataBindingList";
 import EventClick from "@/views/EventClick";
 import EventChange from "@/views/EventChange";
 import WatchTest from "@/views/WatchTest";
+import DataBindingList2 from "@/views/DataBindingList2";
+import ParentComponent from "@/views/ParentComponent";
+import ParentComponent2 from "@/views/ParentComponent2";
+import ParentComponent4 from "@/views/ParentComponent4";
 
 const routes = [
   {
@@ -80,6 +84,26 @@ const routes = [
     path: '/watch',
     name: 'watch',
     component: WatchTest
+  },
+  {
+    path: '/dataBindingList2',
+    name: 'dataBindingList2',
+    component: DataBindingList2
+  },
+  {
+    path: '/parentComponent',
+    name: 'parentComponent',
+    component: ParentComponent
+  },
+  {
+    path: '/parentComponent2',
+    name: 'parentComponent2',
+    component: ParentComponent2
+  },
+  {
+    path: '/parentComponent4',
+    name: 'parentComponent4',
+    component: ParentComponent4
   }
 ]
 
