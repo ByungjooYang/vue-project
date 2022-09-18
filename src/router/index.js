@@ -15,6 +15,7 @@ import DataBindingList2 from "@/views/DataBindingList2";
 import ParentComponent from "@/views/ParentComponent";
 import ParentComponent2 from "@/views/ParentComponent2";
 import ParentComponent4 from "@/views/ParentComponent4";
+import CompositionAPI from "@/views/CompositionAPI";
 
 const routes = [
   {
@@ -104,6 +105,11 @@ const routes = [
     path: '/parentComponent4',
     name: 'parentComponent4',
     component: ParentComponent4
+  },
+  {
+    path: '/calculatorTest',
+    name: 'calculatorTest',
+    component: CompositionAPI
   }
 ]
 

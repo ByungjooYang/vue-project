@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/parentComponent4">data binding</router-link>
+    <router-link to="/calculatorTest">data binding</router-link>
   </nav>
   <router-view/>
 </template>
